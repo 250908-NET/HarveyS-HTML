@@ -27,7 +27,7 @@ After each part, you should upload your progress to your GitHub repo on a workin
 
 Style your About Me page using CSS. Your styling should demonstrate your understanding of the Box Model. You should use a flexbox on your list of hobbies or favorite things to list them horizontally instead of vertically. Upload your changes to GitHub and merge to your main branch.
 
-## Challenge V
+## Challenge V [x]
 
 Create a function that will add an item to a list that is kept between function calls; so each function call will increase the size of the list. Upload your changes to your GitHub working branch.
 
