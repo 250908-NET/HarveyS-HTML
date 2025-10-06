@@ -35,11 +35,30 @@
         <div>Patting my cat</div>
         <div>Eating ramen</div>
     </div>
+
     <p1>
         <img width="150" height="200" src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Blackcat-Lilith.jpg/375px-Blackcat-Lilith.jpg" alt="small cat photo">
         A cat that looks like mine, but isnt!
     </p1>
 
+
+    <h3> List </h3>
+    <div>
+    <textarea name="textarea" id="item" placeholder="Input here"></textarea>
+   
+    <button onclick="addItemToList()">Add Item</button>
+    </div>
+
+    <script>
+        var list = [];
+        function addItemToList() {
+            let item = document.getElementById("item").value;
+            if (item != null && item != "") {
+                list.push(item);
+                alert('Item added1!');
+            }
+        }
+    </script>
 
     <!--
     <h2>Upcoming Classes</h2>
