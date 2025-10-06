@@ -35,11 +35,11 @@ Create a function that will add an item to a list that is kept between function 
 
 Create a function that will print the list of items in an alert. Upload your changes to your GitHub working branch.
 
-## Challenge VII
+## Challenge VII [x]
 
 Create a button that, when clicked, will run the function you created in Challenge V. Upload your changes to your GitHub working branch.
 
-## Challenge VIII
+## Challenge VIII [x]
 
 Create a second button and input box that will add the text supplied in the input box into the function created in Challenge IV when the button is clicked. Upload your changes to your GitHub working branch, then merge your changes to your main branch.
 
