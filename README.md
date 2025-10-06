@@ -4,11 +4,11 @@
 
 ---
 
-## Challenge I
+## Challenge I [x]
 
 Create a new, completely empty Git repository. Then, create a README.md file in Visual Studio Code and upload that to your main branch of your newly created Git repository.
 
-## Challenge II
+## Challenge II [x]
 
 Create a copy of the site picuted in the template.png image (an index.html and main.css have already been provided for you in this folder).
 When complete, commit and push your completed replica to a new working branch, and merge it to your main branch.
