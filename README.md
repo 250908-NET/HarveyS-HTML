@@ -13,7 +13,7 @@ Create a new, completely empty Git repository. Then, create a README.md file in 
 Create a copy of the site picuted in the template.png image (an index.html and main.css have already been provided for you in this folder).
 When complete, commit and push your completed replica to a new working branch, and merge it to your main branch.
 
-## Challenge III
+## Challenge III [x]
 
 Create an About Me site page. The page should have 3 parts:
 
