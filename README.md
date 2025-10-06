@@ -23,7 +23,7 @@ Create an About Me site page. The page should have 3 parts:
 
 After each part, you should upload your progress to your GitHub repo on a working branch. After all parts have been completed, merge your working branch to your main branch.
 
-## Challenge IV
+## Challenge IV [x]
 
 Style your About Me page using CSS. Your styling should demonstrate your understanding of the Box Model. You should use a flexbox on your list of hobbies or favorite things to list them horizontally instead of vertically. Upload your changes to GitHub and merge to your main branch.
 
