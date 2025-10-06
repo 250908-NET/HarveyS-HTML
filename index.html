@@ -47,6 +47,7 @@
     <textarea name="textarea" id="item" placeholder="Input here"></textarea>
    
     <button onclick="addItemToList()">Add Item</button>
+    <button onclick="printList()">Display List</button>
     </div>
 
     <script>
@@ -55,8 +56,12 @@
             let item = document.getElementById("item").value;
             if (item != null && item != "") {
                 list.push(item);
-                alert('Item added1!');
+                alert('Item added!');
             }
+        }
+
+        function printList() {
+            alert(list.map(value => `${value}`).join('\n'));      
         }
     </script>
 

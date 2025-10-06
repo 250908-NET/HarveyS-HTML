@@ -31,7 +31,7 @@ Style your About Me page using CSS. Your styling should demonstrate your underst
 
 Create a function that will add an item to a list that is kept between function calls; so each function call will increase the size of the list. Upload your changes to your GitHub working branch.
 
-## Challenge VI
+## Challenge VI [x]
 
 Create a function that will print the list of items in an alert. Upload your changes to your GitHub working branch.
 
