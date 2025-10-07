@@ -1,0 +1,9 @@
+<button id="clickMe">Click Me</button>
+
+<script>
+  document.getElementById("clickMe").addEventListener("click", function() {
+    let colorList = ["lightblue", "lightgreen", "lightpink", "lightyellow", "lightgray", "purple", "orange", "red", "blue", "green"];
+    let randomColor = colorList[Math.floor(Math.random() * colorList.length)];
+    document.body.style.backgroundColor = randomColor;
+  });
+</script>
