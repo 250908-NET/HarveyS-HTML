@@ -1,0 +1,19 @@
+<div id="container">
+  <ul>  </ul>
+</div>
+
+<button id="Btn">Click to add an item!</button>
+
+<script>
+  let container = document.getElementById("container");
+  let counter = 0;
+
+  function addItem() {
+    counter++;
+    let newItem = document.createElement("li");
+    newItem.textContent = "Item #"+ counter + " was added by JavaScript!";
+    container.appendChild(newItem);
+  }
+
+  document.getElementById("Btn").addEventListener("click", addItem);
+</script>
