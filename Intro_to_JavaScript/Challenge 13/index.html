@@ -1,0 +1,20 @@
+<p id="text">Change my color!</p>
+
+<button id="Btn">Click to change color!</button>
+<button id="Btn2">Click to reset text!</button>
+
+<script>
+  let text = document.getElementById("text");
+  function changeText() {
+    text.style.color = "red";
+    text.style.fontWeight  = "bold";
+  }
+  
+  function resetText() {
+    text.style.color = "black";
+    text.style.fontWeight  = "normal";
+  }
+
+  document.getElementById("Btn").addEventListener("click", changeText);
+  document.getElementById("Btn2").addEventListener("click", resetText);
+</script>
