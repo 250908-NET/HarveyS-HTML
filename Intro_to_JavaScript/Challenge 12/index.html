@@ -1,17 +1,12 @@
-<p id="text">Change my color!</p>
 
+<p id="message">Original text</p>
 
 <button id="Btn">Click Me!</button>
 
 <script>
-  let text = document.getElementById("text");
-  text.style.color = "blue";
-  text.style.fontSize = "24px";
-
-  function changeText() {
-    text.textContent = "You clicked the button!";
-  text.style.color = "purple";
+  function changeMessage() {
+    let message = document.getElementById("message");
+    message.textContent = "You clicked the button!";
   }
-
-  document.getElementById("Btn").addEventListener("click", changeText);
+  document.getElementById("Btn").addEventListener("click", changeMessage);
 </script>
