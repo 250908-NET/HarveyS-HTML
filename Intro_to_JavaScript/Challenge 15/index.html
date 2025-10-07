@@ -1,0 +1,20 @@
+<img id="myImage" src="https://i.pinimg.com/736x/1b/fc/e9/1bfce97a85aecdd0c0a0cd48348c15ef.jpg" alt="Cat">
+
+<button id="Btn">Click to change the image!</button>
+
+<script>
+
+  let img = document.getElementById("myImage");
+
+  function changeImage() {
+
+    if(img.alt.includes("Dog")) {
+      img.src = "https://i.pinimg.com/736x/1b/fc/e9/1bfce97a85aecdd0c0a0cd48348c15ef.jpg";
+      img.alt = "Cat";
+    } else if (img.alt.includes("Cat")) {
+      img.src = "https://i.pinimg.com/474x/34/e6/b5/34e6b5680c8277284d43f1eb75dbba42.jpg";
+      img.alt = "Dog";
+    }
+  }
+  document.getElementById("Btn").addEventListener("click", changeImage);
+</script>
