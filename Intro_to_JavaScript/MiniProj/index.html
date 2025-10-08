@@ -1,0 +1,43 @@
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>To-Do List</title>
+    <style>
+      .done {
+        text-decoration: line-through;
+        color: gray;
+      }
+    </style>
+  </head>
+
+  <body>
+    <h1>My To-Do List</h1>
+    <input type="text" id="taskInput" placeholder="New task">
+    <button id="addTask">Add</button>
+    <button id="removeTask">Remove</button>
+    <ul id="taskList"></ul>
+
+    <script src="script.js"></script>
+  </body>
+</html>
+
+<!-- <div id="container">
+  <ul>  </ul>
+</div>
+
+<button id="Btn">Click to add an item!</button>
+
+<script>
+  let container = document.getElementById("container");
+  let counter = 0;
+
+  function addItem() {
+    counter++;
+    let newItem = document.createElement("li");
+    newItem.textContent = "Item #"+ counter + " was added by JavaScript!";
+    container.appendChild(newItem);
+  }
+
+  document.getElementById("Btn").addEventListener("click", addItem);
+</script> -->
