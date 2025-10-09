@@ -1,0 +1,16 @@
+  <h1>Say Book</h1>
+  <input type="text" id="input1" placeholder="book">
+  <input type="text" id="input2" placeholder="author">
+  <button id="SayBook">Add</button>
+  <p id="result"></p>
+
+<script>
+  
+  const makeBook = (book, author) => ({ book, author });
+  document.getElementById("SayBook").addEventListener("click", function() {
+    let book = document.getElementById("input1").value;
+    let author = document.getElementById("input2").value;
+    console.log(makeBook(book, author));
+    document.getElementById("result").textContent = JSON.stringify(makeBook(book, author));  
+  });
+</script>
