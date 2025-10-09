@@ -1,0 +1,14 @@
+
+    <h1>Multiplied</h1>
+    <button id="Filter">Filter by even</button>
+    <p id="result">10, 15, 20, 25, 30</p>
+
+<script>
+  
+  const numbers = [10, 15, 20, 25, 30];
+  const result = [];
+  document.getElementById("Filter").addEventListener("click", function() {
+    const result = numbers.filter(numbers => numbers % 2 == 0);   
+    document.getElementById("result").textContent = "Result: " + result;
+  });
+</script>
