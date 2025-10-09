@@ -1,0 +1,17 @@
+
+    <h1>Multiplied</h1>
+    <button id="Multi">Square</button>
+    <p id="result">1, 2, 3, 4, 5</p>
+
+<script>
+  
+  const nums = [1, 2, 3, 4, 5];
+  const result = [];
+  const multi = (a, b) => a * b;
+  document.getElementById("Multi").addEventListener("click", function() {
+    for(i of nums){
+      result.push(multi(nums[i-1], nums[i-1]));
+    }
+    document.getElementById("result").textContent = "Result: " + result;
+  });
+</script>
